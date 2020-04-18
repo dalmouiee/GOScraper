@@ -15,7 +15,7 @@ import csv
 import pandas as pd
 
 chrome_options = Options()
-# remove 'chrome_options.add_argument("--headless")' to allow a broswer instance to pop up and observe the program
+# remove 'chrome_options.add_argument("--headless")' to allow a browser instance to pop up and observe the program
 chrome_options.add_argument("--headless")
 # remove 'chrome_options.add_argument('log-level=3')' to allow for default logging of all info,
 # log-levels; 0: info, 1: warning, 2: error, 3: fatal
@@ -133,6 +133,6 @@ def main():
     print('PROG STATUS(9/10): CSV file produced successfully!!.....................')
 
     # 5) Close program
-    print('PROG STATUS(10/10): Closing page successfully Page and terminating program now.....................')
+    print('PROG STATUS(10/10): Closing page and terminating program now.....................')
 
 main()

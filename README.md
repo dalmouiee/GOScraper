@@ -1,5 +1,5 @@
 # GOScraper
-Python Web scrapper to collect GO term information from the informatics [website]("http://www.informatics.jax.org/vocab/gene_ontology/")
+Python Web scraper to collect GO term information from the informatics [website]("http://www.informatics.jax.org/vocab/gene_ontology/")
 
 ## Prerequisites 
 The runme.py file requires the following installations:
@@ -26,4 +26,4 @@ The runme.py file requires the following installations:
  - Run ```runme.py``` using Python; eg ```python3 runme.py```
 
  ## Output
- A CSV file containing the GO terms are placed in a CSV that is saved to the same directory as ```goTerms.csv```
+ A CSV file containing the GO terms is saved to the same directory as ```goTerms.csv```
