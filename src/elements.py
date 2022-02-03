@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 
 #URLs
-web = "http://www.informatics.jax.org/vocab/gene_ontology/"
+web = "http://morcvd.sblab-nsit.net/About"
+
+disease_btn_id = "ContentPlaceHolder_navigation_LinkButton_Disease"
+disease_dropdown_id = "MainContent_disease_drop"
 
 # Locators by Class
 moleFuncClass = ".jstree-anchor"

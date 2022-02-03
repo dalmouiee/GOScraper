@@ -1,0 +1,6 @@
+.venv
+chromedriver
+*.zip
+*.pyc
+*.xlsx
+*.DS_store
