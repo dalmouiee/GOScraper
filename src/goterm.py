@@ -27,7 +27,6 @@ wait = WebDriverWait(driver, 20, ignored_exceptions=ignored_exceptions)
 
 def waitForPageToLoadByCssLocator(locator):
     try:
-        time.sleep(1)
         wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, locator)))
     except TimeoutException:
         print("Timeout Expection: Could not find the element defined by:" + locator)
