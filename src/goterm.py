@@ -66,7 +66,7 @@ def expandAllExpanables():
 def main():
 
     print('PROG STATUS(1/10): Opening Page.....................')  
-    driver.get(elements.web)
+    driver.get(elements.go_term_url)
     waitForPageToLoadByCssLocator(elements.moleFuncClass)
     print('PROG STATUS(2/10): Page loaded successfully.....................')
 

@@ -1,6 +1,10 @@
 .venv
 chromedriver
+geckodriver
 *.zip
 *.pyc
 *.xlsx
 *.DS_store
+*.tar.gz
+*.log
+downloads
