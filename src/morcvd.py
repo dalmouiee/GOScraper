@@ -22,7 +22,7 @@ import time
 # Replace this with the path you want to save the files to on your machine
 DOWNLOAD_PATH = "/Users/60228808/dev/GOScraper/src/downloads"
 # Replace this with the path of the chromiumn driver file on your machine
-CHROMIUMN_DRIVER_PATH = "/Users/60228808/dev/GOScraper/src/chromedrive"
+CHROMIUMN_DRIVER_PATH = "/Users/60228808/dev/GOScraper/src/chromedriver"
 
 logger = logging.basicConfig()
 
