@@ -228,7 +228,7 @@ def prot_sped_inter():
         elements.prot_spec_inter_organism_dropdown_id, By.ID)
     logging.info("Page load success.....................")
 
-    for o in elements.organisms:
+    for o in ["HOST_PROTEIN"]:
 
         filename, keyword = (
             ("uniprot-human-filtered-organism__Homo+sapiens+(Human)+[9606]_.xlsx",
@@ -337,13 +337,16 @@ def main():
     logging.info("Page load success.....................")
 
     # Uncomment the functions you wish to run
-    # disease()
-    # path_sped_inter()
-    # prot_sped_inter()
-    # gene_onto()
-    # inter_detect_meth()
-    # inter_detect_multi_meth()
-    # interaction()
+    disease()
+    path_sped_inter()
+    # TODO: fix for pathogen pathway
+    prot_sped_inter()
+    gene_onto()
+    inter_detect_meth()
+    inter_detect_multi_meth()
+    interaction()
+    # TODO add common interactors pathway
+    # common_interaction()
 
 
 main()
